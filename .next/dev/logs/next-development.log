@@ -1,0 +1,2760 @@
+[00:00:02.841] Server  LOG      ✓ Ready in 1869ms
+[00:00:05.904] Server  LOG      ○ Compiling / ...
+[00:00:09.596] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.927] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:09.927] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:09.927] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765115838829}
+[00:00:11.524] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:11.780] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:11.780] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:11.780] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765115840682}
+[00:00:29.783] Server  LOG      ✓ Compiled in 172ms
+[00:00:30.011] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:62:5
+Parsing ecmascript source code failed
+  60 |     }}
+  61 |     barProps={} // add specific props if using bar mode
+> 62 |     cubeProps={} // add specific props if using cube mode
+     |     ^^^^^^^^^
+  63 |   />
+  64 | </div>
+  65 |                 </div>
+
+Expected '</', got 'cubeProps'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:02:00.217] Server  LOG      ✓ Compiled in 115ms
+[00:02:01.009] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:65:5
+Parsing ecmascript source code failed
+  63 |     barProps={} 
+  64 |     // add specific props if using cube mode
+> 65 |     cubeProps={} 
+     |     ^^^^^^^^^
+  66 |   /> {/* <--- The /> must be the last thing in the tag */}
+  67 | </div>
+  68 |                 </div>
+
+Expected '</', got 'cubeProps'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:02:09.905] Server  ERROR    ⨯ ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:65:5
+Parsing ecmascript source code failed
+  63 |     barProps={} 
+  64 |     // add specific props if using cube mode
+> 65 |     cubeProps={} 
+     |     ^^^^^^^^^
+  66 |   /> {/* <--- The /> must be the last thing in the tag */}
+  67 | </div>
+  68 |                 </div>
+
+Expected '</', got 'cubeProps'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+[00:02:10.029] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:65:5
+Parsing ecmascript source code failed
+  63 |     barProps={} 
+  64 |     // add specific props if using cube mode
+> 65 |     cubeProps={} 
+     |     ^^^^^^^^^
+  66 |   /> {/* <--- The /> must be the last thing in the tag */}
+  67 | </div>
+  68 |                 </div>
+
+Expected '</', got 'cubeProps'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:02:12.287] Browser ERROR   uncaughtError: Error: ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:65:5
+Parsing ecmascript source code failed
+  63 |     barProps={} 
+  64 |     // add specific props if using cube mode
+> 65 |     cubeProps={} 
+     |     ^^^^^^^^^
+  66 |   /> {/* <--- The /> must be the last thing in the tag */}
+  67 | </div>
+  68 |                 </div>
+
+Expected '</', got 'cubeProps'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+[00:02:13.010] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:65:5
+Parsing ecmascript source code failed
+  63 |     barProps={} 
+  64 |     // add specific props if using cube mode
+> 65 |     cubeProps={} 
+     |     ^^^^^^^^^
+  66 |   /> {/* <--- The /> must be the last thing in the tag */}
+  67 | </div>
+  68 |                 </div>
+
+Expected '</', got 'cubeProps'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:02:13.010] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:65:5
+Parsing ecmascript source code failed
+  63 |     barProps={} 
+  64 |     // add specific props if using cube mode
+> 65 |     cubeProps={} 
+     |     ^^^^^^^^^
+  66 |   /> {/* <--- The /> must be the last thing in the tag */}
+  67 | </div>
+  68 |                 </div>
+
+Expected '</', got 'cubeProps'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:02:13.446] Server  LOG      ✓ Compiled in 133ms
+[00:02:14.580] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:14.844] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:14.844] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:14.844] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765115963740}
+[00:03:09.704] Server  LOG      ✓ Compiled in 165ms
+[00:03:10.011] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:03:10.011] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:03:15.013] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:03:15.013] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:03:19.931] Server  LOG      ✓ Compiled in 105ms
+[00:03:21.014] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:124:7
+Parsing ecmascript source code failed
+  122 |     barProps={} 
+  123 |     // add specific props if using cube mode
+> 124 |     cubeProps={} 
+      |       ^^^^^^^^^
+  125 |   />
+  126 | </div>
+  127 |                 </div>
+
+Expected '</', got 'cubeProps'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:03:21.014] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:03:21.014] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:04:32.483] Server  LOG      ✓ Compiled in 102ms
+[00:04:33.021] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:122:5
+Parsing ecmascript source code failed
+  120 |     }}
+  121 |     barProps={} 
+> 122 |     {/* add specific props if using bar mode */}
+      |     ^
+  123 |     cubeProps={} 
+  124 |     {/* add specific props if using cube mode */}
+  125 |   />
+
+Expected '</', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:04:33.021] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:04:33.021] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:04:47.856] Server  LOG      ✓ Compiled in 101ms
+[00:04:48.022] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:122:7
+Parsing ecmascript source code failed
+  120 |     }}
+  121 |     barProps={} 
+> 122 |     cubeProps={} 
+      |       ^^^^^^^^^
+  123 |     {/* add specific props if using cube mode */}
+  124 |   />
+  125 | </div>
+
+Expected '</', got 'cubeProps'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:04:48.022] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:04:48.022] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:04:51.223] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:122:7
+Parsing ecmascript source code failed
+  120 |     }}
+  121 |     barProps={} 
+> 122 |     cubeProps={} 
+      |       ^^^^^^^^^
+  123 |   />
+  124 | </div>
+  125 |                 </div>
+
+Expected '</', got 'cubeProps'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:04:51.223] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:04:51.223] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:04:52.733] Server  ERROR    ⨯ ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:122:7
+Parsing ecmascript source code failed
+  120 |     }}
+  121 |     barProps={} 
+> 122 |     cubeProps={} 
+      |       ^^^^^^^^^
+  123 |   />
+  124 | </div>
+  125 |                 </div>
+
+Expected '</', got 'cubeProps'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+
+./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+
+./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+[00:04:53.118] Browser ERROR   uncaughtError: Error: ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:122:7
+Parsing ecmascript source code failed
+  120 |     }}
+  121 |     barProps={} 
+> 122 |     cubeProps={} 
+      |       ^^^^^^^^^
+  123 |   />
+  124 | </div>
+  125 |                 </div>
+
+Expected '</', got 'cubeProps'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+[00:04:53.304] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:122:7
+Parsing ecmascript source code failed
+  120 |     }}
+  121 |     barProps={} 
+> 122 |     cubeProps={} 
+      |       ^^^^^^^^^
+  123 |   />
+  124 | </div>
+  125 |                 </div>
+
+Expected '</', got 'cubeProps'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:04:53.305] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:04:53.305] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:04:53.305] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:122:7
+Parsing ecmascript source code failed
+  120 |     }}
+  121 |     barProps={} 
+> 122 |     cubeProps={} 
+      |       ^^^^^^^^^
+  123 |   />
+  124 | </div>
+  125 |                 </div>
+
+Expected '</', got 'cubeProps'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:04:53.305] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:04:53.305] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:05:15.411] Server  LOG      ✓ Compiled in 1307ms
+[00:05:17.202] Server  ERROR   C:\Users\dtamb\OneDrive\Desktop\JobAccelerateAi\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:17.231] Server  ERROR   C:\Users\dtamb\OneDrive\Desktop\JobAccelerateAi\.next\dev\server\chunks\ssr\4629a__pnpm_769d8927._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:17.234] Server  ERROR    ⨯ Error: React.Children.only expected to receive a single React element child.
+[00:05:17.520] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:17.802] Browser ERROR   uncaughtError: Error: React.Children.only expected to receive a single React element child.
+[00:06:22.593] Server  LOG      ✓ Compiled in 128ms
+[00:06:23.008] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:06:23.008] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:06:25.132] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:06:25.947] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:27.009] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:06:27.009] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:06:27.009] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765116215246}
+[00:08:02.285] Server  LOG      ✓ Compiled in 114ms
+[00:08:03.010] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:64:13
+Parsing ecmascript source code failed
+  62 |             barProps={} 
+  63 |             // add specific props if using cube mode
+> 64 |             cubeProps={} 
+     |             ^^^^^^^^^
+  65 |         />
+  66 |     </div>
+  67 |                 </div>
+
+Expected '</', got 'cubeProps'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:10:20.865] Server  LOG      ✓ Compiled in 172ms
+[00:10:23.992] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:24.292] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:10:24.293] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:10:24.293] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765116453191}
+[00:10:33.248] Server  LOG      ✓ Compiled in 104ms
+[00:10:34.009] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:10:34.009] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:10:35.907] Server  LOG      ✓ Compiled in 127ms
+[00:10:37.017] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:121:62
+Parsing ecmascript source code failed
+  119 |                 anisotropy: 0.01  
+  120 |             }}
+> 121 |             {/* add specific props if using bar mode */}
+      |                                                              ^
+  122 |             barProps={} 
+  123 |             {/* add specific props if using cube mode */}
+  124 |             cubeProps={} 
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:10:37.017] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:10:37.017] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:13:26.237] Server  ERROR    ⨯ ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:121:62
+Parsing ecmascript source code failed
+  119 |                 anisotropy: 0.01  
+  120 |             }}
+> 121 |             {/* add specific props if using bar mode */}
+      |                                                              ^
+  122 |             barProps={} 
+  123 |             {/* add specific props if using cube mode */}
+  124 |             cubeProps={} 
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+
+./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+
+./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+[00:13:26.563] Browser ERROR   uncaughtError: Error: ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:121:62
+Parsing ecmascript source code failed
+  119 |                 anisotropy: 0.01  
+  120 |             }}
+> 121 |             {/* add specific props if using bar mode */}
+      |                                                              ^
+  122 |             barProps={} 
+  123 |             {/* add specific props if using cube mode */}
+  124 |             cubeProps={} 
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+[00:13:26.739] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:121:62
+Parsing ecmascript source code failed
+  119 |                 anisotropy: 0.01  
+  120 |             }}
+> 121 |             {/* add specific props if using bar mode */}
+      |                                                              ^
+  122 |             barProps={} 
+  123 |             {/* add specific props if using cube mode */}
+  124 |             cubeProps={} 
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:13:26.739] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:13:26.739] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:13:26.739] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:121:62
+Parsing ecmascript source code failed
+  119 |                 anisotropy: 0.01  
+  120 |             }}
+> 121 |             {/* add specific props if using bar mode */}
+      |                                                              ^
+  122 |             barProps={} 
+  123 |             {/* add specific props if using cube mode */}
+  124 |             cubeProps={} 
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:13:26.739] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:13:26.739] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:16:42.015] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:121:62
+Parsing ecmascript source code failed
+  119 |                 anisotropy: 0.01  
+  120 |             }} 
+> 121 |             {/* add specific props if using bar mode */}
+      |                                                              ^
+  122 |             barProps={} 
+  123 |             {/* add specific props if using cube mode */}
+  124 |             cubeProps={} 
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:16:42.015] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:16:42.015] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:16:58.737] Server  ERROR    ⨯ ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:121:62
+Parsing ecmascript source code failed
+  119 |                 anisotropy: 0.01  
+  120 |             }} 
+> 121 |             {/* add specific props if using bar mode */}
+      |                                                              ^
+  122 |             barProps={} 
+  123 |             {/* add specific props if using cube mode */}
+  124 |             cubeProps={} 
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+
+./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+
+./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+[00:16:58.992] Browser ERROR   uncaughtError: Error: ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:121:62
+Parsing ecmascript source code failed
+  119 |                 anisotropy: 0.01  
+  120 |             }} 
+> 121 |             {/* add specific props if using bar mode */}
+      |                                                              ^
+  122 |             barProps={} 
+  123 |             {/* add specific props if using cube mode */}
+  124 |             cubeProps={} 
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+[00:16:59.163] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:121:62
+Parsing ecmascript source code failed
+  119 |                 anisotropy: 0.01  
+  120 |             }} 
+> 121 |             {/* add specific props if using bar mode */}
+      |                                                              ^
+  122 |             barProps={} 
+  123 |             {/* add specific props if using cube mode */}
+  124 |             cubeProps={} 
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:16:59.163] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:16:59.163] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:16:59.163] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:121:62
+Parsing ecmascript source code failed
+  119 |                 anisotropy: 0.01  
+  120 |             }} 
+> 121 |             {/* add specific props if using bar mode */}
+      |                                                              ^
+  122 |             barProps={} 
+  123 |             {/* add specific props if using cube mode */}
+  124 |             cubeProps={} 
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:16:59.163] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:16:59.163] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:17:35.014] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:17:35.015] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:17:52.014] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:121:62
+Parsing ecmascript source code failed
+  119 |                 anisotropy: 0.01  
+  120 |             }} 
+> 121 |             {/* add specific props if using bar mode */}
+      |                                                              ^
+  122 |             barProps={} 
+  123 |             {/* add specific props if using cube mode */}
+  124 |             cubeProps={} 
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:17:52.014] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:17:52.014] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:18:16.014] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:18:16.014] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:18:20.937] Server  LOG      ✓ Compiled in 148ms
+[00:18:21.863] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:23.009] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:18:23.009] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:18:23.009] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765116931218}
+[00:21:08.065] Server  LOG      ✓ Compiled in 129ms
+[00:21:09.017] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:21:09.017] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:21:23.598] Server  ERROR    ⨯ ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+
+./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+[00:21:23.894] Browser ERROR   uncaughtError: Error: ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+[00:21:24.056] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:21:24.056] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:21:24.056] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:21:24.056] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:21:28.010] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:62:62
+Parsing ecmascript source code failed
+  60 |                 anisotropy: 0.01  
+  61 |             }} 
+> 62 |             {/* add specific props if using bar mode */}
+     |                                                              ^
+  63 |             barProps={} 
+  64 |             {/* add specific props if using cube mode */}
+  65 |             cubeProps={} 
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:21:28.010] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:21:28.010] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:22:29.021] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:62:62
+Parsing ecmascript source code failed
+  60 |                 anisotropy: 0.01  
+  61 |             }} 
+> 62 |             {/* add specific props if using bar mode */}
+     |                                                              ^
+  63 |             barProps={} 
+  64 |             {/* add specific props if using cube mode */}
+  65 |             cubeProps={} 
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:22:29.021] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:22:29.022] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:22:34.608] Server  ERROR    ⨯ ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:62:62
+Parsing ecmascript source code failed
+  60 |                 anisotropy: 0.01  
+  61 |             }} 
+> 62 |             {/* add specific props if using bar mode */}
+     |                                                              ^
+  63 |             barProps={} 
+  64 |             {/* add specific props if using cube mode */}
+  65 |             cubeProps={} 
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+
+./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+
+./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+[00:22:34.867] Browser ERROR   uncaughtError: Error: ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:62:62
+Parsing ecmascript source code failed
+  60 |                 anisotropy: 0.01  
+  61 |             }} 
+> 62 |             {/* add specific props if using bar mode */}
+     |                                                              ^
+  63 |             barProps={} 
+  64 |             {/* add specific props if using cube mode */}
+  65 |             cubeProps={} 
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+[00:22:35.014] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:62:62
+Parsing ecmascript source code failed
+  60 |                 anisotropy: 0.01  
+  61 |             }} 
+> 62 |             {/* add specific props if using bar mode */}
+     |                                                              ^
+  63 |             barProps={} 
+  64 |             {/* add specific props if using cube mode */}
+  65 |             cubeProps={} 
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:22:35.014] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:22:35.014] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:22:35.014] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:62:62
+Parsing ecmascript source code failed
+  60 |                 anisotropy: 0.01  
+  61 |             }} 
+> 62 |             {/* add specific props if using bar mode */}
+     |                                                              ^
+  63 |             barProps={} 
+  64 |             {/* add specific props if using cube mode */}
+  65 |             cubeProps={} 
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:22:35.014] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:22:35.014] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:22:36.181] Server  ERROR    ⨯ ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:62:62
+Parsing ecmascript source code failed
+  60 |                 anisotropy: 0.01  
+  61 |             }} 
+> 62 |             {/* add specific props if using bar mode */}
+     |                                                              ^
+  63 |             barProps={} 
+  64 |             {/* add specific props if using cube mode */}
+  65 |             cubeProps={} 
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+
+./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+
+./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+[00:22:36.387] Browser ERROR   uncaughtError: Error: ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:62:62
+Parsing ecmascript source code failed
+  60 |                 anisotropy: 0.01  
+  61 |             }} 
+> 62 |             {/* add specific props if using bar mode */}
+     |                                                              ^
+  63 |             barProps={} 
+  64 |             {/* add specific props if using cube mode */}
+  65 |             cubeProps={} 
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+[00:22:36.551] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:62:62
+Parsing ecmascript source code failed
+  60 |                 anisotropy: 0.01  
+  61 |             }} 
+> 62 |             {/* add specific props if using bar mode */}
+     |                                                              ^
+  63 |             barProps={} 
+  64 |             {/* add specific props if using cube mode */}
+  65 |             cubeProps={} 
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:22:36.551] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:22:36.552] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:22:36.552] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:62:62
+Parsing ecmascript source code failed
+  60 |                 anisotropy: 0.01  
+  61 |             }} 
+> 62 |             {/* add specific props if using bar mode */}
+     |                                                              ^
+  63 |             barProps={} 
+  64 |             {/* add specific props if using cube mode */}
+  65 |             cubeProps={} 
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:22:36.552] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:22:36.552] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:22:45.017] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:62:62
+Parsing ecmascript source code failed
+  60 |                 anisotropy: 0.01  
+  61 |             }} 
+> 62 |             {/* add specific props if using bar mode */}
+     |                                                              ^
+  63 |             barProps={} 
+  64 |             {/* add specific props if using cube mode */}
+  65 |             cubeProps={} 
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:22:45.017] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:22:45.017] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:22:48.024] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:62:62
+Parsing ecmascript source code failed
+  60 |                 anisotropy: 0.01  
+  61 |             }} 
+> 62 |             {/* add specific props if using bar mode */}
+     |                                                              ^
+  63 |             barProps={} 
+  64 |             {/* add specific props if using cube mode */}
+  65 |             cubeProps={} 
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:22:48.024] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:22:48.024] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:24:40.008] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:24:40.008] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx:4:1
+Export HeroSection doesn't exist in target module
+  2 |
+  3 | import { NavHeader } from "@/components/nav-header"
+> 4 | import { HeroSection } from "@/components/hero-section"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { FeaturesShowcase } from "@/components/features-showcase"
+  6 | import { HowItWorks } from "@/components/how-it-works"
+  7 | import { FeaturesDeepDive } from "@/components/features-deep-dive"
+
+The export HeroSection was not found in module [project]/OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:24:41.973] Server  LOG      ✓ Compiled in 144ms
+[00:24:43.229] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:44.018] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:24:44.018] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:24:44.018] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765117312673}
+[00:24:48.653] Browser ERROR   uncaughtError: Error: Could not load /assets/3d/lens.glb: fetch for "http://localhost:3000/assets/3d/lens.glb" responded with 404: Not Found
+[00:24:48.654] Browser ERROR   uncaughtError: Error: Could not load /assets/3d/lens.glb: fetch for "http://localhost:3000/assets/3d/lens.glb" responded with 404: Not Found
+[00:24:49.184] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[00:26:45.052] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:26:45.063] Server  LOG      ✓ Compiled in 165ms
+[00:26:46.282] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:47.022] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:26:47.022] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:26:47.022] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765117435648}
+[00:26:50.461] Browser ERROR   You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[00:26:50.640] Browser ERROR   uncaughtError: Error: Could not load /assets/demo/cs1.webp: undefined
+[00:26:50.640] Browser ERROR   uncaughtError: Error: Could not load /assets/demo/cs1.webp: undefined
+[00:26:51.165] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[00:27:49.253] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:27:50.025] Server  LOG      ✓ Compiled in 130ms
+[00:27:50.327] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:51.011] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:27:51.011] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:27:51.011] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765117499635}
+[00:27:53.727] Browser ERROR   You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[00:27:53.943] Browser ERROR   You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[00:27:53.943] Browser ERROR   uncaughtError: Error: Could not load /assets/demo/cs1.webp: undefined
+[00:27:53.943] Browser ERROR   uncaughtError: Error: Could not load /assets/demo/cs1.webp: undefined
+[00:27:54.461] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[00:27:57.541] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:57.849] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:27:57.850] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:27:57.850] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765117506709}
+[00:27:57.993] Browser ERROR   You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[00:27:58.241] Browser ERROR   uncaughtError: Error: Could not load /assets/demo/cs1.webp: undefined
+[00:27:58.241] Browser ERROR   uncaughtError: Error: Could not load /assets/demo/cs1.webp: undefined
+[00:27:58.748] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[00:29:13.401] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:29:13.409] Server  LOG      ✓ Compiled in 125ms
+[00:29:14.495] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:15.010] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:29:15.010] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:29:15.010] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765117583815}
+[00:29:19.848] Browser ERROR   You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[00:29:19.848] Browser ERROR   You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[00:29:48.237] Server  LOG      ✓ Compiled in 124ms
+[00:29:49.010] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:60:5
+Parsing ecmascript source code failed
+  58 |         </div>
+  59 |       </div>
+> 60 |     </section>
+     |     ^
+  61 |   )
+  62 | }
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:29:49.010] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:60:6
+Parsing ecmascript source code failed
+  58 |         </div>
+  59 |       </div>
+> 60 |     </section>
+     |      ^^^^^^^^^
+  61 |   )
+  62 | }
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:30:08.751] Server  LOG      ✓ Compiled in 117ms
+[00:30:09.933] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[00:31:01.368] Server  LOG      ✓ Compiled in 123ms
+[00:31:02.020] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:50:1
+Parsing ecmascript source code failed
+  48 |     </section>
+  49 |   )
+> 50 | }
+     | ^
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:31:10.021] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx:63:1
+Parsing ecmascript source code failed
+  61 |     </section>
+  62 |   )
+> 63 | }
+     | ^
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/hero-section.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:32:58.916] Server  LOG      ✓ Compiled in 128ms
+[00:33:00.019] Browser WARN    WARNING: Multiple instances of Three.js being imported.
+[00:33:01.922] Browser ERROR   You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[00:33:01.922] Browser ERROR   You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[00:34:18.871] Server  LOG      ✓ Compiled in 118ms
+[00:34:24.883] Server  LOG      ✓ Compiled in 104ms
+[00:38:37.077] Server  LOG      ✓ Compiled in 149ms
+[00:38:43.709] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:44.113] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:38:44.113] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:38:44.113] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765118152949}
+[00:39:41.892] Server  LOG      ✓ Compiled in 116ms
+[00:39:44.017] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[00:40:07.139] Server  LOG      ✓ Compiled in 163ms
+[00:40:25.370] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765118254271}
