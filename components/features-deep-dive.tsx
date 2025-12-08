@@ -1,6 +1,7 @@
 "use client"
 
 import { Card } from "@/components/ui/card"
+import CardDemo from "@/components/cards-demo-3";
 
 export function FeaturesDeepDive() {
   return (
@@ -29,12 +30,13 @@ export function FeaturesDeepDive() {
                 ))}
               </ul>
             </div>
-            <Card className="p-8 bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/10 border-border/20 h-96 flex items-center justify-center">
+            {/* <Card className="p-8 bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/10 border-border/20 h-96 flex items-center justify-center">
               <div className="text-center">
                 <div className="text-6xl mb-4">🤖</div>
                 <p className="text-muted-foreground">Auto-Apply Timeline Visualization</p>
               </div>
-            </Card>
+            </Card> */}
+            <CardDemo />
           </div>
         </div>
 

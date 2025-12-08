@@ -1,6 +1,893 @@
-[00:00:02.949] Server  LOG      ✓ Ready in 1943ms
-[00:00:24.473] Server  LOG      ○ Compiling / ...
-[00:00:35.512] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:36.696] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:36.696] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:36.696] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765175830753}
+[00:00:01.623] Server  LOG      ✓ Ready in 1066ms
+[00:00:06.090] Server  LOG      ○ Compiling / ...
+[00:00:08.815] Server  ERROR   Invalid DOM property `stop-color`. Did you mean `stopColor`?
+[00:00:09.403] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:10.047] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
+[00:00:10.047] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <div className="mb-20">
+      <div className="grid grid-...">
+        <div>
+        <CardDemo>
+          <Card>
+            <div className="max-w-sm w...">
+              <CardSkeletonContainer>
+                <div className="h-[15rem] ...">
+                  <Skeleton>
+                    <div className="p-8 overfl...">
+                      <div>
+                      <div className="h-40 w-px ...">
+                        <div className="w-10 h-32 ...">
+                          <Sparkles>
+                            <div className="absolute i...">
+                              <motion.span animate={{top:"calc(...", ...}} transition={{...}} ...>
+                                <span
+                                  className="inline-block bg-black dark:bg-white"
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   top: "90.96224645738154%"
+-                                   top: "3.96198%"
++                                   left: "9.606088650215995%"
+-                                   left: "80.012%"
++                                   width: "2px"
+-                                   width: "2px"
++                                   height: "2px"
+-                                   height: "2px"
++                                   borderRadius: "50%"
++                                   zIndex: 1
+-                                   border-top-left-radius: "50%"
+-                                   border-top-right-radius: "50%"
+-                                   border-bottom-right-radius: "50%"
+-                                   border-bottom-left-radius: "50%"
+-                                   z-index: "1"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.span animate={{top:"calc(...", ...}} transition={{...}} ...>
+                                <span
+                                  className="inline-block bg-black dark:bg-white"
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   top: "99.52054765403253%"
+-                                   top: "67.2229%"
++                                   left: "52.683285956638805%"
+-                                   left: "91.9139%"
++                                   width: "2px"
+-                                   width: "2px"
++                                   height: "2px"
+-                                   height: "2px"
++                                   borderRadius: "50%"
++                                   zIndex: 1
+-                                   border-top-left-radius: "50%"
+-                                   border-top-right-radius: "50%"
+-                                   border-bottom-right-radius: "50%"
+-                                   border-bottom-left-radius: "50%"
+-                                   z-index: "1"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.span animate={{top:"calc(...", ...}} transition={{...}} ...>
+                                <span
+                                  className="inline-block bg-black dark:bg-white"
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   top: "23.245813457907772%"
+-                                   top: "49.4633%"
++                                   left: "94.36187357208516%"
+-                                   left: "44.499%"
++                                   width: "2px"
+-                                   width: "2px"
++                                   height: "2px"
+-                                   height: "2px"
++                                   borderRadius: "50%"
++                                   zIndex: 1
+-                                   border-top-left-radius: "50%"
+-                                   border-top-right-radius: "50%"
+-                                   border-bottom-right-radius: "50%"
+-                                   border-bottom-left-radius: "50%"
+-                                   z-index: "1"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.span animate={{top:"calc(...", ...}} transition={{...}} ...>
+                                <span
+                                  className="inline-block bg-black dark:bg-white"
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   top: "32.812888379264336%"
+-                                   top: "67.7088%"
++                                   left: "0.7441670825214963%"
+-                                   left: "53.5553%"
++                                   width: "2px"
+-                                   width: "2px"
++                                   height: "2px"
+-                                   height: "2px"
++                                   borderRadius: "50%"
++                                   zIndex: 1
+-                                   border-top-left-radius: "50%"
+-                                   border-top-right-radius: "50%"
+-                                   border-bottom-right-radius: "50%"
+-                                   border-bottom-left-radius: "50%"
+-                                   z-index: "1"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.span animate={{top:"calc(...", ...}} transition={{...}} ...>
+                                <span
+                                  className="inline-block bg-black dark:bg-white"
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   top: "74.98127070047806%"
+-                                   top: "17.2778%"
++                                   left: "32.729164127232394%"
+-                                   left: "23.8831%"
++                                   width: "2px"
+-                                   width: "2px"
++                                   height: "2px"
+-                                   height: "2px"
++                                   borderRadius: "50%"
++                                   zIndex: 1
+-                                   border-top-left-radius: "50%"
+-                                   border-top-right-radius: "50%"
+-                                   border-bottom-right-radius: "50%"
+-                                   border-bottom-left-radius: "50%"
+-                                   z-index: "1"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.span animate={{top:"calc(...", ...}} transition={{...}} ...>
+                                <span
+                                  className="inline-block bg-black dark:bg-white"
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   top: "57.762880531722914%"
+-                                   top: "73.9473%"
++                                   left: "91.6539219522959%"
+-                                   left: "69.3632%"
++                                   width: "2px"
+-                                   width: "2px"
++                                   height: "2px"
+-                                   height: "2px"
++                                   borderRadius: "50%"
++                                   zIndex: 1
+-                                   border-top-left-radius: "50%"
+-                                   border-top-right-radius: "50%"
+-                                   border-bottom-right-radius: "50%"
+-                                   border-bottom-left-radius: "50%"
+-                                   z-index: "1"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.span animate={{top:"calc(...", ...}} transition={{...}} ...>
+                                <span
+                                  className="inline-block bg-black dark:bg-white"
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   top: "83.88490821472331%"
+-                                   top: "72.3744%"
++                                   left: "53.18937108170177%"
+-                                   left: "90.0869%"
++                                   width: "2px"
+-                                   width: "2px"
++                                   height: "2px"
+-                                   height: "2px"
++                                   borderRadius: "50%"
++                                   zIndex: 1
+-                                   border-top-left-radius: "50%"
+-                                   border-top-right-radius: "50%"
+-                                   border-bottom-right-radius: "50%"
+-                                   border-bottom-left-radius: "50%"
+-                                   z-index: "1"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.span animate={{top:"calc(...", ...}} transition={{...}} ...>
+                                <span
+                                  className="inline-block bg-black dark:bg-white"
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   top: "46.733578710158795%"
+-                                   top: "42.1012%"
++                                   left: "22.548369218247654%"
+-                                   left: "75.5728%"
++                                   width: "2px"
+-                                   width: "2px"
++                                   height: "2px"
+-                                   height: "2px"
++                                   borderRadius: "50%"
++                                   zIndex: 1
+-                                   border-top-left-radius: "50%"
+-                                   border-top-right-radius: "50%"
+-                                   border-bottom-right-radius: "50%"
+-                                   border-bottom-left-radius: "50%"
+-                                   z-index: "1"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.span animate={{top:"calc(...", ...}} transition={{...}} ...>
+                                <span
+                                  className="inline-block bg-black dark:bg-white"
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   top: "95.8980000922258%"
+-                                   top: "21.0594%"
++                                   left: "30.4330769564481%"
+-                                   left: "79.7095%"
++                                   width: "2px"
+-                                   width: "2px"
++                                   height: "2px"
+-                                   height: "2px"
++                                   borderRadius: "50%"
++                                   zIndex: 1
+-                                   border-top-left-radius: "50%"
+-                                   border-top-right-radius: "50%"
+-                                   border-bottom-right-radius: "50%"
+-                                   border-bottom-left-radius: "50%"
+-                                   z-index: "1"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.span animate={{top:"calc(...", ...}} transition={{...}} ...>
+                                <span
+                                  className="inline-block bg-black dark:bg-white"
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   top: "44.296693827465916%"
+-                                   top: "22.481%"
++                                   left: "34.371900862097334%"
+-                                   left: "51.8095%"
++                                   width: "2px"
+-                                   width: "2px"
++                                   height: "2px"
+-                                   height: "2px"
++                                   borderRadius: "50%"
++                                   zIndex: 1
+-                                   border-top-left-radius: "50%"
+-                                   border-top-right-radius: "50%"
+-                                   border-bottom-right-radius: "50%"
+-                                   border-bottom-left-radius: "50%"
+-                                   z-index: "1"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.span animate={{top:"calc(...", ...}} transition={{...}} ...>
+                                <span
+                                  className="inline-block bg-black dark:bg-white"
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   top: "46.68599744555384%"
+-                                   top: "80.1398%"
++                                   left: "44.87663090097871%"
+-                                   left: "29.8951%"
++                                   width: "2px"
+-                                   width: "2px"
++                                   height: "2px"
+-                                   height: "2px"
++                                   borderRadius: "50%"
++                                   zIndex: 1
+-                                   border-top-left-radius: "50%"
+-                                   border-top-right-radius: "50%"
+-                                   border-bottom-right-radius: "50%"
+-                                   border-bottom-left-radius: "50%"
+-                                   z-index: "1"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.span animate={{top:"calc(...", ...}} transition={{...}} ...>
+                                <span
+                                  className="inline-block bg-black dark:bg-white"
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   top: "69.78733685409426%"
+-                                   top: "61.638%"
++                                   left: "94.37301154239356%"
+-                                   left: "21.3363%"
++                                   width: "2px"
+-                                   width: "2px"
++                                   height: "2px"
+-                                   height: "2px"
++                                   borderRadius: "50%"
++                                   zIndex: 1
+-                                   border-top-left-radius: "50%"
+-                                   border-top-right-radius: "50%"
+-                                   border-bottom-right-radius: "50%"
+-                                   border-bottom-left-radius: "50%"
+-                                   z-index: "1"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+              ...
+
+[00:00:10.978] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:10.978] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:10.978] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765178213510}
+[00:05:42.979] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `FeaturesDeepDive`.
+[00:05:49.253] Server  LOG      ✓ Compiled in 241ms
+[00:05:49.980] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx:467:9
+Parsing ecmascript source code failed
+  465 |     <div
+  466 |       className={cn(
+> 467 |         "max-w-sm w-full mx-auto p-8 rounded-xl 
+      |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  468 |         bg-[#0a0a0a] dark:bg-[#0a0a0a]
+  469 |         border border-white/10 
+  470 |         shadow-[0_0_15px_rgba(0,0,0,0.6)]
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:06:00.774] Server  ERROR    ⨯ ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx:467:9
+Parsing ecmascript source code failed
+  465 |     <div
+  466 |       className={cn(
+> 467 |         "max-w-sm w-full mx-auto p-8 rounded-xl 
+      |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  468 |         bg-[#0a0a0a] dark:bg-[#0a0a0a]
+  469 |         border border-white/10 
+  470 |         shadow-[0_0_15px_rgba(0,0,0,0.6)]
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+[00:06:00.892] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx:467:9
+Parsing ecmascript source code failed
+  465 |     <div
+  466 |       className={cn(
+> 467 |         "max-w-sm w-full mx-auto p-8 rounded-xl 
+      |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  468 |         bg-[#0a0a0a] dark:bg-[#0a0a0a]
+  469 |         border border-white/10 
+  470 |         shadow-[0_0_15px_rgba(0,0,0,0.6)]
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:06:01.743] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx:467:9
+Parsing ecmascript source code failed
+  465 |     <div
+  466 |       className={cn(
+> 467 |         "max-w-sm w-full mx-auto p-8 rounded-xl 
+      |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  468 |         bg-[#0a0a0a] dark:bg-[#0a0a0a]
+  469 |         border border-white/10 
+  470 |         shadow-[0_0_15px_rgba(0,0,0,0.6)]
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:06:01.850] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx:467:9
+Parsing ecmascript source code failed
+  465 |     <div
+  466 |       className={cn(
+> 467 |         "max-w-sm w-full mx-auto p-8 rounded-xl 
+      |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  468 |         bg-[#0a0a0a] dark:bg-[#0a0a0a]
+  469 |         border border-white/10 
+  470 |         shadow-[0_0_15px_rgba(0,0,0,0.6)]
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:06:02.425] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx:467:9
+Parsing ecmascript source code failed
+  465 |     <div
+  466 |       className={cn(
+> 467 |         "max-w-sm w-full mx-auto p-8 rounded-xl 
+      |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  468 |         bg-[#0a0a0a] dark:bg-[#0a0a0a]
+  469 |         border border-white/10 
+  470 |         shadow-[0_0_15px_rgba(0,0,0,0.6)]
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:06:02.785] Browser ERROR   uncaughtError: Error: ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx:467:9
+Parsing ecmascript source code failed
+  465 |     <div
+  466 |       className={cn(
+> 467 |         "max-w-sm w-full mx-auto p-8 rounded-xl 
+      |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  468 |         bg-[#0a0a0a] dark:bg-[#0a0a0a]
+  469 |         border border-white/10 
+  470 |         shadow-[0_0_15px_rgba(0,0,0,0.6)]
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+
+[00:06:02.905] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx:467:9
+Parsing ecmascript source code failed
+  465 |     <div
+  466 |       className={cn(
+> 467 |         "max-w-sm w-full mx-auto p-8 rounded-xl 
+      |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  468 |         bg-[#0a0a0a] dark:bg-[#0a0a0a]
+  469 |         border border-white/10 
+  470 |         shadow-[0_0_15px_rgba(0,0,0,0.6)]
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:06:03.971] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx:467:9
+Parsing ecmascript source code failed
+  465 |     <div
+  466 |       className={cn(
+> 467 |         "max-w-sm w-full mx-auto p-8 rounded-xl 
+      |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  468 |         bg-[#0a0a0a] dark:bg-[#0a0a0a]
+  469 |         border border-white/10 
+  470 |         shadow-[0_0_15px_rgba(0,0,0,0.6)]
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
+[00:07:29.135] Server  LOG      ✓ Compiled in 236ms
+[00:07:29.833] Server  WARN    cpu backend was already registered. Reusing existing backend factory.
+[00:07:29.840] Server  WARN    Platform node has already been set. Overwriting the platform with [object Object].
+[00:07:29.975] Server  ERROR   C:\Users\dtamb\OneDrive\Desktop\JobAccelerateAi\.next\dev\server\chunks\ssr\[root-of-the-server]__a84810a0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:29.977] Server  ERROR    ⨯ ReferenceError: OpenAILogo is not defined
+[00:07:30.294] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:30.980] Browser ERROR   uncaughtError: ReferenceError: OpenAILogo is not defined
+[00:08:21.706] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:08:21.718] Server  LOG      ✓ Compiled in 118ms
+[00:08:22.399] Server  WARN    cpu backend was already registered. Reusing existing backend factory.
+[00:08:22.406] Server  WARN    Platform node has already been set. Overwriting the platform with [object Object].
+[00:08:22.527] Server  ERROR   C:\Users\dtamb\OneDrive\Desktop\JobAccelerateAi\.next\dev\server\chunks\ssr\[root-of-the-server]__a84810a0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:22.528] Server  ERROR    ⨯ ReferenceError: OpenAILogo is not defined
+[00:08:22.918] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:23.976] Browser ERROR   uncaughtError: ReferenceError: OpenAILogo is not defined
+[00:08:29.183] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:08:29.193] Server  LOG      ✓ Compiled in 108ms
+[00:08:29.746] Server  WARN    cpu backend was already registered. Reusing existing backend factory.
+[00:08:29.752] Server  WARN    Platform node has already been set. Overwriting the platform with [object Object].
+[00:08:30.319] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:31.978] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
+[00:08:31.978] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <div className="mb-20">
+      <div className="grid grid-...">
+        <div>
+        <CardDemo>
+          <Card>
+            <div className="max-w-sm w...">
+              <CardSkeletonContainer>
+                <div className="h-[15rem] ...">
+                  <Skeleton>
+                    <div className="p-8 overfl...">
+                      <div>
+                      <div className="h-40 w-px ...">
+                        <div className="w-10 h-32 ...">
+                          <Sparkles>
+                            <div className="absolute i...">
+                              <motion.span animate={{top:"calc(...", ...}} transition={{...}} ...>
+                                <span
+                                  className="inline-block bg-black dark:bg-white"
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   top: "1.971972556739987%"
+-                                   top: "7.2396%"
++                                   left: "68.61655017358402%"
+-                                   left: "66.4946%"
++                                   width: "2px"
+-                                   width: "2px"
++                                   height: "2px"
+-                                   height: "2px"
++                                   borderRadius: "50%"
++                                   zIndex: 1
+-                                   border-top-left-radius: "50%"
+-                                   border-top-right-radius: "50%"
+-                                   border-bottom-right-radius: "50%"
+-                                   border-bottom-left-radius: "50%"
+-                                   z-index: "1"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.span animate={{top:"calc(...", ...}} transition={{...}} ...>
+                                <span
+                                  className="inline-block bg-black dark:bg-white"
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   top: "41.79782472249735%"
+-                                   top: "7.27652%"
++                                   left: "2.0795099505094616%"
+-                                   left: "18.5519%"
++                                   width: "2px"
+-                                   width: "2px"
++                                   height: "2px"
+-                                   height: "2px"
++                                   borderRadius: "50%"
++                                   zIndex: 1
+-                                   border-top-left-radius: "50%"
+-                                   border-top-right-radius: "50%"
+-                                   border-bottom-right-radius: "50%"
+-                                   border-bottom-left-radius: "50%"
+-                                   z-index: "1"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.span animate={{top:"calc(...", ...}} transition={{...}} ...>
+                                <span
+                                  className="inline-block bg-black dark:bg-white"
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   top: "85.41852363573247%"
+-                                   top: "3.59683%"
++                                   left: "52.78149370016011%"
+-                                   left: "22.5252%"
++                                   width: "2px"
+-                                   width: "2px"
++                                   height: "2px"
+-                                   height: "2px"
++                                   borderRadius: "50%"
++                                   zIndex: 1
+-                                   border-top-left-radius: "50%"
+-                                   border-top-right-radius: "50%"
+-                                   border-bottom-right-radius: "50%"
+-                                   border-bottom-left-radius: "50%"
+-                                   z-index: "1"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.span animate={{top:"calc(...", ...}} transition={{...}} ...>
+                                <span
+                                  className="inline-block bg-black dark:bg-white"
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   top: "49.4582972016878%"
+-                                   top: "20.8723%"
++                                   left: "31.54648640210127%"
+-                                   left: "89.0068%"
++                                   width: "2px"
+-                                   width: "2px"
++                                   height: "2px"
+-                                   height: "2px"
++                                   borderRadius: "50%"
++                                   zIndex: 1
+-                                   border-top-left-radius: "50%"
+-                                   border-top-right-radius: "50%"
+-                                   border-bottom-right-radius: "50%"
+-                                   border-bottom-left-radius: "50%"
+-                                   z-index: "1"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.span animate={{top:"calc(...", ...}} transition={{...}} ...>
+                                <span
+                                  className="inline-block bg-black dark:bg-white"
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   top: "48.342974565513465%"
+-                                   top: "90.9935%"
++                                   left: "25.590934354549454%"
+-                                   left: "86.1156%"
++                                   width: "2px"
+-                                   width: "2px"
++                                   height: "2px"
+-                                   height: "2px"
++                                   borderRadius: "50%"
++                                   zIndex: 1
+-                                   border-top-left-radius: "50%"
+-                                   border-top-right-radius: "50%"
+-                                   border-bottom-right-radius: "50%"
+-                                   border-bottom-left-radius: "50%"
+-                                   z-index: "1"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.span animate={{top:"calc(...", ...}} transition={{...}} ...>
+                                <span
+                                  className="inline-block bg-black dark:bg-white"
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   top: "89.98708388739543%"
+-                                   top: "36.0175%"
++                                   left: "60.414404307588484%"
+-                                   left: "37.1286%"
++                                   width: "2px"
+-                                   width: "2px"
++                                   height: "2px"
+-                                   height: "2px"
++                                   borderRadius: "50%"
++                                   zIndex: 1
+-                                   border-top-left-radius: "50%"
+-                                   border-top-right-radius: "50%"
+-                                   border-bottom-right-radius: "50%"
+-                                   border-bottom-left-radius: "50%"
+-                                   z-index: "1"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.span animate={{top:"calc(...", ...}} transition={{...}} ...>
+                                <span
+                                  className="inline-block bg-black dark:bg-white"
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   top: "81.97535464154217%"
+-                                   top: "32.2006%"
++                                   left: "37.68876052775087%"
+-                                   left: "93.5159%"
++                                   width: "2px"
+-                                   width: "2px"
++                                   height: "2px"
+-                                   height: "2px"
++                                   borderRadius: "50%"
++                                   zIndex: 1
+-                                   border-top-left-radius: "50%"
+-                                   border-top-right-radius: "50%"
+-                                   border-bottom-right-radius: "50%"
+-                                   border-bottom-left-radius: "50%"
+-                                   z-index: "1"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.span animate={{top:"calc(...", ...}} transition={{...}} ...>
+                                <span
+                                  className="inline-block bg-black dark:bg-white"
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   top: "31.423343520503476%"
+-                                   top: "4.87616%"
++                                   left: "91.19114393050074%"
+-                                   left: "73.0659%"
++                                   width: "2px"
+-                                   width: "2px"
++                                   height: "2px"
+-                                   height: "2px"
++                                   borderRadius: "50%"
++                                   zIndex: 1
+-                                   border-top-left-radius: "50%"
+-                                   border-top-right-radius: "50%"
+-                                   border-bottom-right-radius: "50%"
+-                                   border-bottom-left-radius: "50%"
+-                                   z-index: "1"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.span animate={{top:"calc(...", ...}} transition={{...}} ...>
+                                <span
+                                  className="inline-block bg-black dark:bg-white"
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   top: "25.932284949670315%"
+-                                   top: "54.7388%"
++                                   left: "74.04131774358571%"
+-                                   left: "39.2986%"
++                                   width: "2px"
+-                                   width: "2px"
++                                   height: "2px"
+-                                   height: "2px"
++                                   borderRadius: "50%"
++                                   zIndex: 1
+-                                   border-top-left-radius: "50%"
+-                                   border-top-right-radius: "50%"
+-                                   border-bottom-right-radius: "50%"
+-                                   border-bottom-left-radius: "50%"
+-                                   z-index: "1"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.span animate={{top:"calc(...", ...}} transition={{...}} ...>
+                                <span
+                                  className="inline-block bg-black dark:bg-white"
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   top: "81.2988526961651%"
+-                                   top: "61.6812%"
++                                   left: "67.77750800933762%"
+-                                   left: "1.01447%"
++                                   width: "2px"
+-                                   width: "2px"
++                                   height: "2px"
+-                                   height: "2px"
++                                   borderRadius: "50%"
++                                   zIndex: 1
+-                                   border-top-left-radius: "50%"
+-                                   border-top-right-radius: "50%"
+-                                   border-bottom-right-radius: "50%"
+-                                   border-bottom-left-radius: "50%"
+-                                   z-index: "1"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.span animate={{top:"calc(...", ...}} transition={{...}} ...>
+                                <span
+                                  className="inline-block bg-black dark:bg-white"
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   top: "46.76264151479101%"
+-                                   top: "86.5251%"
++                                   left: "87.09785794798691%"
+-                                   left: "59.6527%"
++                                   width: "2px"
+-                                   width: "2px"
++                                   height: "2px"
+-                                   height: "2px"
++                                   borderRadius: "50%"
++                                   zIndex: 1
+-                                   border-top-left-radius: "50%"
+-                                   border-top-right-radius: "50%"
+-                                   border-bottom-right-radius: "50%"
+-                                   border-bottom-left-radius: "50%"
+-                                   z-index: "1"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.span animate={{top:"calc(...", ...}} transition={{...}} ...>
+                                <span
+                                  className="inline-block bg-black dark:bg-white"
+                                  style={{
++                                   position: "absolute"
+-                                   position: "absolute"
++                                   top: "62.5088329983137%"
+-                                   top: "2.71989%"
++                                   left: "36.951530983346984%"
+-                                   left: "71.3355%"
++                                   width: "2px"
+-                                   width: "2px"
++                                   height: "2px"
+-                                   height: "2px"
++                                   borderRadius: "50%"
++                                   zIndex: 1
+-                                   border-top-left-radius: "50%"
+-                                   border-top-right-radius: "50%"
+-                                   border-bottom-right-radius: "50%"
+-                                   border-bottom-left-radius: "50%"
+-                                   z-index: "1"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+              ...
+
+[00:08:31.978] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:08:31.978] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:08:31.978] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765178714337}
+[00:08:45.446] Server  LOG      ✓ Compiled in 99ms
