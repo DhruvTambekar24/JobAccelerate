@@ -1,9 +1,9 @@
-[00:00:01.623] Server  LOG      ✓ Ready in 1066ms
-[00:00:06.090] Server  LOG      ○ Compiling / ...
-[00:00:08.815] Server  ERROR   Invalid DOM property `stop-color`. Did you mean `stopColor`?
-[00:00:09.403] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:10.047] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[00:00:10.047] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:04.417] Server  LOG      ✓ Ready in 3s
+[00:00:41.998] Server  LOG      ○ Compiling / ...
+[00:00:53.700] Server  ERROR   Invalid DOM property `stop-color`. Did you mean `stopColor`?
+[00:00:55.104] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:57.508] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
+[00:00:57.508] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -16,9 +16,8 @@ It can also happen if the client has a browser extension installed which messes 
 %s%s https://react.dev/link/hydration-mismatch 
 
   ...
-    <div className="mb-20">
-      <div className="grid grid-...">
-        <div>
+    <div className="mx-auto ma...">
+      ...
         <CardDemo>
           <Card>
             <div className="max-w-sm w...">
@@ -37,10 +36,10 @@ It can also happen if the client has a browser extension installed which messes 
                                   style={{
 +                                   position: "absolute"
 -                                   position: "absolute"
-+                                   top: "90.96224645738154%"
--                                   top: "3.96198%"
-+                                   left: "9.606088650215995%"
--                                   left: "80.012%"
++                                   top: "98.8861270051346%"
+-                                   top: "95.0874%"
++                                   left: "83.75857803958579%"
+-                                   left: "73.196%"
 +                                   width: "2px"
 -                                   width: "2px"
 +                                   height: "2px"
@@ -61,10 +60,10 @@ It can also happen if the client has a browser extension installed which messes 
                                   style={{
 +                                   position: "absolute"
 -                                   position: "absolute"
-+                                   top: "99.52054765403253%"
--                                   top: "67.2229%"
-+                                   left: "52.683285956638805%"
--                                   left: "91.9139%"
++                                   top: "62.78772496257526%"
+-                                   top: "82.5917%"
++                                   left: "50.720411863427096%"
+-                                   left: "16.6086%"
 +                                   width: "2px"
 -                                   width: "2px"
 +                                   height: "2px"
@@ -85,10 +84,10 @@ It can also happen if the client has a browser extension installed which messes 
                                   style={{
 +                                   position: "absolute"
 -                                   position: "absolute"
-+                                   top: "23.245813457907772%"
--                                   top: "49.4633%"
-+                                   left: "94.36187357208516%"
--                                   left: "44.499%"
++                                   top: "92.14754820324578%"
+-                                   top: "40.5554%"
++                                   left: "59.9979618463369%"
+-                                   left: "8.29346%"
 +                                   width: "2px"
 -                                   width: "2px"
 +                                   height: "2px"
@@ -109,10 +108,10 @@ It can also happen if the client has a browser extension installed which messes 
                                   style={{
 +                                   position: "absolute"
 -                                   position: "absolute"
-+                                   top: "32.812888379264336%"
--                                   top: "67.7088%"
-+                                   left: "0.7441670825214963%"
--                                   left: "53.5553%"
++                                   top: "0.24365209571931556%"
+-                                   top: "97.3029%"
++                                   left: "93.90855122420841%"
+-                                   left: "59.3833%"
 +                                   width: "2px"
 -                                   width: "2px"
 +                                   height: "2px"
@@ -133,10 +132,10 @@ It can also happen if the client has a browser extension installed which messes 
                                   style={{
 +                                   position: "absolute"
 -                                   position: "absolute"
-+                                   top: "74.98127070047806%"
--                                   top: "17.2778%"
-+                                   left: "32.729164127232394%"
--                                   left: "23.8831%"
++                                   top: "56.25291472566259%"
+-                                   top: "14.3548%"
++                                   left: "60.70291965659743%"
+-                                   left: "35.2538%"
 +                                   width: "2px"
 -                                   width: "2px"
 +                                   height: "2px"
@@ -157,10 +156,10 @@ It can also happen if the client has a browser extension installed which messes 
                                   style={{
 +                                   position: "absolute"
 -                                   position: "absolute"
-+                                   top: "57.762880531722914%"
--                                   top: "73.9473%"
-+                                   left: "91.6539219522959%"
--                                   left: "69.3632%"
++                                   top: "18.810760349995835%"
+-                                   top: "77.6674%"
++                                   left: "12.857986012745737%"
+-                                   left: "82.4252%"
 +                                   width: "2px"
 -                                   width: "2px"
 +                                   height: "2px"
@@ -181,10 +180,10 @@ It can also happen if the client has a browser extension installed which messes 
                                   style={{
 +                                   position: "absolute"
 -                                   position: "absolute"
-+                                   top: "83.88490821472331%"
--                                   top: "72.3744%"
-+                                   left: "53.18937108170177%"
--                                   left: "90.0869%"
++                                   top: "2.487300747399601%"
+-                                   top: "51.8797%"
++                                   left: "42.99265943721268%"
+-                                   left: "58.6906%"
 +                                   width: "2px"
 -                                   width: "2px"
 +                                   height: "2px"
@@ -205,10 +204,10 @@ It can also happen if the client has a browser extension installed which messes 
                                   style={{
 +                                   position: "absolute"
 -                                   position: "absolute"
-+                                   top: "46.733578710158795%"
--                                   top: "42.1012%"
-+                                   left: "22.548369218247654%"
--                                   left: "75.5728%"
++                                   top: "64.1020506879615%"
+-                                   top: "4.68145%"
++                                   left: "37.55653185837081%"
+-                                   left: "80.6515%"
 +                                   width: "2px"
 -                                   width: "2px"
 +                                   height: "2px"
@@ -229,10 +228,10 @@ It can also happen if the client has a browser extension installed which messes 
                                   style={{
 +                                   position: "absolute"
 -                                   position: "absolute"
-+                                   top: "95.8980000922258%"
--                                   top: "21.0594%"
-+                                   left: "30.4330769564481%"
--                                   left: "79.7095%"
++                                   top: "14.879213378851352%"
+-                                   top: "88.9925%"
++                                   left: "52.77883379356205%"
+-                                   left: "51.7315%"
 +                                   width: "2px"
 -                                   width: "2px"
 +                                   height: "2px"
@@ -253,10 +252,10 @@ It can also happen if the client has a browser extension installed which messes 
                                   style={{
 +                                   position: "absolute"
 -                                   position: "absolute"
-+                                   top: "44.296693827465916%"
--                                   top: "22.481%"
-+                                   left: "34.371900862097334%"
--                                   left: "51.8095%"
++                                   top: "25.819635905203086%"
+-                                   top: "4.6879%"
++                                   left: "90.04419081191631%"
+-                                   left: "57.769%"
 +                                   width: "2px"
 -                                   width: "2px"
 +                                   height: "2px"
@@ -277,10 +276,10 @@ It can also happen if the client has a browser extension installed which messes 
                                   style={{
 +                                   position: "absolute"
 -                                   position: "absolute"
-+                                   top: "46.68599744555384%"
--                                   top: "80.1398%"
-+                                   left: "44.87663090097871%"
--                                   left: "29.8951%"
++                                   top: "89.59105596150235%"
+-                                   top: "68.6333%"
++                                   left: "97.82422429124415%"
+-                                   left: "21.8486%"
 +                                   width: "2px"
 -                                   width: "2px"
 +                                   height: "2px"
@@ -301,10 +300,10 @@ It can also happen if the client has a browser extension installed which messes 
                                   style={{
 +                                   position: "absolute"
 -                                   position: "absolute"
-+                                   top: "69.78733685409426%"
--                                   top: "61.638%"
-+                                   left: "94.37301154239356%"
--                                   left: "21.3363%"
++                                   top: "31.757371023643678%"
+-                                   top: "6.11245%"
++                                   left: "16.58133570105129%"
+-                                   left: "34.2808%"
 +                                   width: "2px"
 -                                   width: "2px"
 +                                   height: "2px"
@@ -320,256 +319,945 @@ It can also happen if the client has a browser extension installed which messes 
                                   ref={function useMotionRef.useCallback}
                                 >
               ...
+      ...
+        <Month data-animated-month={undefined} className="flex flex-..." style={undefined} displayIndex={0} ...>
+          <div data-animated-month={undefined} className="flex flex-..." style={undefined}>
+            <MonthCaption>
+            <MonthGrid role="grid" aria-multiselectable={false} aria-label="December 2025" className="rdp-month_..." ...>
+              <table role="grid" aria-multiselectable={false} aria-label="December 2025" className="rdp-month_..." ...>
+                <Weekdays>
+                <Weeks data-animated-weeks={undefined} className="rdp-weeks" style={undefined}>
+                  <tbody data-animated-weeks={undefined} className="rdp-weeks" style={undefined}>
+                    <Week className="flex w-ful..." style={undefined} week={{days:[...], ...}}>
+                      <tr className="flex w-ful..." style={undefined}>
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="11/30/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="11/30/2025"
+-                                 data-day="30/11/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Sunday, November 30th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 30
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/1/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/1/2025"
+-                                 data-day="1/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Monday, December 1st, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 1
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/2/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/2/2025"
+-                                 data-day="2/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Tuesday, December 2nd, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 2
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/3/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/3/2025"
+-                                 data-day="3/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Wednesday, December 3rd, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 3
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/4/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/4/2025"
+-                                 data-day="4/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Thursday, December 4th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 4
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/5/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/5/2025"
+-                                 data-day="5/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Friday, December 5th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 5
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/6/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/6/2025"
+-                                 data-day="6/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Saturday, December 6th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 6
+                    <Week className="flex w-ful..." style={undefined} week={{days:[...], ...}}>
+                      <tr className="flex w-ful..." style={undefined}>
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/7/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/7/2025"
+-                                 data-day="7/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Sunday, December 7th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 7
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={true} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/8/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/8/2025"
+-                                 data-day="8/12/2025"
+                                  data-selected-single={true}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={0}
+                                  aria-label="Today, Monday, December 8th, 2025, selected"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 8
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/9/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/9/2025"
+-                                 data-day="9/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Tuesday, December 9th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 9
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/10/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/10/2025"
+-                                 data-day="10/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Wednesday, December 10th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 10
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/11/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/11/2025"
+-                                 data-day="11/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Thursday, December 11th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 11
+                        <Day>
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/13/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/13/2025"
+-                                 data-day="13/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Saturday, December 13th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 13
+                    <Week className="flex w-ful..." style={undefined} week={{days:[...], ...}}>
+                      <tr className="flex w-ful..." style={undefined}>
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/14/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/14/2025"
+-                                 data-day="14/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Sunday, December 14th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 14
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/15/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/15/2025"
+-                                 data-day="15/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Monday, December 15th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 15
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/16/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/16/2025"
+-                                 data-day="16/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Tuesday, December 16th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 16
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/17/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/17/2025"
+-                                 data-day="17/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Wednesday, December 17th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 17
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/18/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/18/2025"
+-                                 data-day="18/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Thursday, December 18th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 18
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/19/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/19/2025"
+-                                 data-day="19/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Friday, December 19th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 19
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/20/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/20/2025"
+-                                 data-day="20/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Saturday, December 20th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 20
+                    <Week className="flex w-ful..." style={undefined} week={{days:[...], ...}}>
+                      <tr className="flex w-ful..." style={undefined}>
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/21/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/21/2025"
+-                                 data-day="21/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Sunday, December 21st, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 21
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/22/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/22/2025"
+-                                 data-day="22/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Monday, December 22nd, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 22
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/23/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/23/2025"
+-                                 data-day="23/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Tuesday, December 23rd, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 23
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/24/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/24/2025"
+-                                 data-day="24/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Wednesday, December 24th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 24
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/25/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/25/2025"
+-                                 data-day="25/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Thursday, December 25th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 25
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/26/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/26/2025"
+-                                 data-day="26/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Friday, December 26th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 26
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/27/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/27/2025"
+-                                 data-day="27/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Saturday, December 27th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 27
+                    <Week className="flex w-ful..." style={undefined} week={{days:[...], ...}}>
+                      <tr className="flex w-ful..." style={undefined}>
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/28/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/28/2025"
+-                                 data-day="28/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Sunday, December 28th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 28
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/29/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/29/2025"
+-                                 data-day="29/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Monday, December 29th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 29
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/30/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/30/2025"
+-                                 data-day="30/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Tuesday, December 30th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 30
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/31/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/31/2025"
+-                                 data-day="31/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Wednesday, December 31st, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 31
+                        <Day>
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="1/2/2026" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="1/2/2026"
+-                                 data-day="2/1/2026"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Friday, January 2nd, 2026"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 2
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="1/3/2026" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="1/3/2026"
+-                                 data-day="3/1/2026"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Saturday, January 3rd, 2026"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 3
+      ...
 
-[00:00:10.978] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:10.978] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:10.978] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765178213510}
-[00:05:42.979] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-
-Check the render method of `FeaturesDeepDive`.
-[00:05:49.253] Server  LOG      ✓ Compiled in 241ms
-[00:05:49.980] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx:467:9
-Parsing ecmascript source code failed
-  465 |     <div
-  466 |       className={cn(
-> 467 |         "max-w-sm w-full mx-auto p-8 rounded-xl 
-      |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  468 |         bg-[#0a0a0a] dark:bg-[#0a0a0a]
-  469 |         border border-white/10 
-  470 |         shadow-[0_0_15px_rgba(0,0,0,0.6)]
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
-[00:06:00.774] Server  ERROR    ⨯ ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx:467:9
-Parsing ecmascript source code failed
-  465 |     <div
-  466 |       className={cn(
-> 467 |         "max-w-sm w-full mx-auto p-8 rounded-xl 
-      |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  468 |         bg-[#0a0a0a] dark:bg-[#0a0a0a]
-  469 |         border border-white/10 
-  470 |         shadow-[0_0_15px_rgba(0,0,0,0.6)]
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
-
-
-[00:06:00.892] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx:467:9
-Parsing ecmascript source code failed
-  465 |     <div
-  466 |       className={cn(
-> 467 |         "max-w-sm w-full mx-auto p-8 rounded-xl 
-      |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  468 |         bg-[#0a0a0a] dark:bg-[#0a0a0a]
-  469 |         border border-white/10 
-  470 |         shadow-[0_0_15px_rgba(0,0,0,0.6)]
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
-[00:06:01.743] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx:467:9
-Parsing ecmascript source code failed
-  465 |     <div
-  466 |       className={cn(
-> 467 |         "max-w-sm w-full mx-auto p-8 rounded-xl 
-      |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  468 |         bg-[#0a0a0a] dark:bg-[#0a0a0a]
-  469 |         border border-white/10 
-  470 |         shadow-[0_0_15px_rgba(0,0,0,0.6)]
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
-[00:06:01.850] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx:467:9
-Parsing ecmascript source code failed
-  465 |     <div
-  466 |       className={cn(
-> 467 |         "max-w-sm w-full mx-auto p-8 rounded-xl 
-      |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  468 |         bg-[#0a0a0a] dark:bg-[#0a0a0a]
-  469 |         border border-white/10 
-  470 |         shadow-[0_0_15px_rgba(0,0,0,0.6)]
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
-[00:06:02.425] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx:467:9
-Parsing ecmascript source code failed
-  465 |     <div
-  466 |       className={cn(
-> 467 |         "max-w-sm w-full mx-auto p-8 rounded-xl 
-      |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  468 |         bg-[#0a0a0a] dark:bg-[#0a0a0a]
-  469 |         border border-white/10 
-  470 |         shadow-[0_0_15px_rgba(0,0,0,0.6)]
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
-[00:06:02.785] Browser ERROR   uncaughtError: Error: ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx:467:9
-Parsing ecmascript source code failed
-  465 |     <div
-  466 |       className={cn(
-> 467 |         "max-w-sm w-full mx-auto p-8 rounded-xl 
-      |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  468 |         bg-[#0a0a0a] dark:bg-[#0a0a0a]
-  469 |         border border-white/10 
-  470 |         shadow-[0_0_15px_rgba(0,0,0,0.6)]
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
-
-
-[00:06:02.905] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx:467:9
-Parsing ecmascript source code failed
-  465 |     <div
-  466 |       className={cn(
-> 467 |         "max-w-sm w-full mx-auto p-8 rounded-xl 
-      |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  468 |         bg-[#0a0a0a] dark:bg-[#0a0a0a]
-  469 |         border border-white/10 
-  470 |         shadow-[0_0_15px_rgba(0,0,0,0.6)]
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
-[00:06:03.971] Browser ERROR   ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx:467:9
-Parsing ecmascript source code failed
-  465 |     <div
-  466 |       className={cn(
-> 467 |         "max-w-sm w-full mx-auto p-8 rounded-xl 
-      |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  468 |         bg-[#0a0a0a] dark:bg-[#0a0a0a]
-  469 |         border border-white/10 
-  470 |         shadow-[0_0_15px_rgba(0,0,0,0.6)]
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component Browser]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./OneDrive/Desktop/JobAccelerateAi/components/cards-demo-3.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/components/features-deep-dive.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Client Component SSR]
-    ./OneDrive/Desktop/JobAccelerateAi/app/page.tsx [Server Component]
-[00:07:29.135] Server  LOG      ✓ Compiled in 236ms
-[00:07:29.833] Server  WARN    cpu backend was already registered. Reusing existing backend factory.
-[00:07:29.840] Server  WARN    Platform node has already been set. Overwriting the platform with [object Object].
-[00:07:29.975] Server  ERROR   C:\Users\dtamb\OneDrive\Desktop\JobAccelerateAi\.next\dev\server\chunks\ssr\[root-of-the-server]__a84810a0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:07:29.977] Server  ERROR    ⨯ ReferenceError: OpenAILogo is not defined
-[00:07:30.294] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:30.980] Browser ERROR   uncaughtError: ReferenceError: OpenAILogo is not defined
-[00:08:21.706] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:08:21.718] Server  LOG      ✓ Compiled in 118ms
-[00:08:22.399] Server  WARN    cpu backend was already registered. Reusing existing backend factory.
-[00:08:22.406] Server  WARN    Platform node has already been set. Overwriting the platform with [object Object].
-[00:08:22.527] Server  ERROR   C:\Users\dtamb\OneDrive\Desktop\JobAccelerateAi\.next\dev\server\chunks\ssr\[root-of-the-server]__a84810a0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:08:22.528] Server  ERROR    ⨯ ReferenceError: OpenAILogo is not defined
-[00:08:22.918] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:23.976] Browser ERROR   uncaughtError: ReferenceError: OpenAILogo is not defined
-[00:08:29.183] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:08:29.193] Server  LOG      ✓ Compiled in 108ms
-[00:08:29.746] Server  WARN    cpu backend was already registered. Reusing existing backend factory.
-[00:08:29.752] Server  WARN    Platform node has already been set. Overwriting the platform with [object Object].
-[00:08:30.319] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:31.978] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[00:08:31.978] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:58.593] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:58.593] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:58.593] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765217156230}
+[00:01:32.566] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:32.773] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:32.773] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/signup","route":"/signup"}
+[00:01:32.774] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765217190963}
+[00:01:43.114] Server  LOG      ○ Compiling /dashboard ...
+[00:01:44.161] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:44.543] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:44.543] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:01:44.543] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765217202735}
+[00:01:53.199] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/analytics color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/analytics","o":"http://localhost:3000/dashboard/analytics","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765217211167}
+[00:02:02.227] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/jobs color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/jobs","o":"http://localhost:3000/dashboard/jobs","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765217220421}
+[00:02:05.894] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:06.053] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:06.053] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard/queue","route":"/dashboard/queue"}
+[00:02:06.053] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/queue color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/queue","o":"http://localhost:3000/dashboard/queue","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765217224234}
+[00:02:07.881] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:08.099] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:08.099] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard/jobs","route":"/dashboard/jobs"}
+[00:02:08.099] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/jobs color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/jobs","o":"http://localhost:3000/dashboard/jobs","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765217226284}
+[00:02:14.835] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:15.065] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
+[00:02:15.513] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -582,9 +1270,8 @@ It can also happen if the client has a browser extension installed which messes 
 %s%s https://react.dev/link/hydration-mismatch 
 
   ...
-    <div className="mb-20">
-      <div className="grid grid-...">
-        <div>
+    <div className="mx-auto ma...">
+      ...
         <CardDemo>
           <Card>
             <div className="max-w-sm w...">
@@ -603,10 +1290,10 @@ It can also happen if the client has a browser extension installed which messes 
                                   style={{
 +                                   position: "absolute"
 -                                   position: "absolute"
-+                                   top: "1.971972556739987%"
--                                   top: "7.2396%"
-+                                   left: "68.61655017358402%"
--                                   left: "66.4946%"
++                                   top: "85.38532194458305%"
+-                                   top: "42.6541%"
++                                   left: "65.639457056475%"
+-                                   left: "90.6071%"
 +                                   width: "2px"
 -                                   width: "2px"
 +                                   height: "2px"
@@ -627,10 +1314,10 @@ It can also happen if the client has a browser extension installed which messes 
                                   style={{
 +                                   position: "absolute"
 -                                   position: "absolute"
-+                                   top: "41.79782472249735%"
--                                   top: "7.27652%"
-+                                   left: "2.0795099505094616%"
--                                   left: "18.5519%"
++                                   top: "71.15040314468402%"
+-                                   top: "16.9556%"
++                                   left: "68.35703520798253%"
+-                                   left: "59.7403%"
 +                                   width: "2px"
 -                                   width: "2px"
 +                                   height: "2px"
@@ -651,10 +1338,10 @@ It can also happen if the client has a browser extension installed which messes 
                                   style={{
 +                                   position: "absolute"
 -                                   position: "absolute"
-+                                   top: "85.41852363573247%"
--                                   top: "3.59683%"
-+                                   left: "52.78149370016011%"
--                                   left: "22.5252%"
++                                   top: "65.20348460637008%"
+-                                   top: "21.7984%"
++                                   left: "72.27947012520556%"
+-                                   left: "10.0153%"
 +                                   width: "2px"
 -                                   width: "2px"
 +                                   height: "2px"
@@ -675,10 +1362,10 @@ It can also happen if the client has a browser extension installed which messes 
                                   style={{
 +                                   position: "absolute"
 -                                   position: "absolute"
-+                                   top: "49.4582972016878%"
--                                   top: "20.8723%"
-+                                   left: "31.54648640210127%"
--                                   left: "89.0068%"
++                                   top: "89.26207425887162%"
+-                                   top: "57.2614%"
++                                   left: "97.73673680854975%"
+-                                   left: "24.9717%"
 +                                   width: "2px"
 -                                   width: "2px"
 +                                   height: "2px"
@@ -699,10 +1386,10 @@ It can also happen if the client has a browser extension installed which messes 
                                   style={{
 +                                   position: "absolute"
 -                                   position: "absolute"
-+                                   top: "48.342974565513465%"
--                                   top: "90.9935%"
-+                                   left: "25.590934354549454%"
--                                   left: "86.1156%"
++                                   top: "95.0290015817471%"
+-                                   top: "31.3638%"
++                                   left: "0.5653557691977174%"
+-                                   left: "43.1368%"
 +                                   width: "2px"
 -                                   width: "2px"
 +                                   height: "2px"
@@ -723,10 +1410,10 @@ It can also happen if the client has a browser extension installed which messes 
                                   style={{
 +                                   position: "absolute"
 -                                   position: "absolute"
-+                                   top: "89.98708388739543%"
--                                   top: "36.0175%"
-+                                   left: "60.414404307588484%"
--                                   left: "37.1286%"
++                                   top: "52.40422548871507%"
+-                                   top: "73.7222%"
++                                   left: "40.907357855448886%"
+-                                   left: "14.1538%"
 +                                   width: "2px"
 -                                   width: "2px"
 +                                   height: "2px"
@@ -747,10 +1434,10 @@ It can also happen if the client has a browser extension installed which messes 
                                   style={{
 +                                   position: "absolute"
 -                                   position: "absolute"
-+                                   top: "81.97535464154217%"
--                                   top: "32.2006%"
-+                                   left: "37.68876052775087%"
--                                   left: "93.5159%"
++                                   top: "72.50131714695749%"
+-                                   top: "69.8016%"
++                                   left: "6.400018283875763%"
+-                                   left: "36.6261%"
 +                                   width: "2px"
 -                                   width: "2px"
 +                                   height: "2px"
@@ -771,10 +1458,10 @@ It can also happen if the client has a browser extension installed which messes 
                                   style={{
 +                                   position: "absolute"
 -                                   position: "absolute"
-+                                   top: "31.423343520503476%"
--                                   top: "4.87616%"
-+                                   left: "91.19114393050074%"
--                                   left: "73.0659%"
++                                   top: "37.13622915823641%"
+-                                   top: "29.5969%"
++                                   left: "62.37320246030838%"
+-                                   left: "24.4378%"
 +                                   width: "2px"
 -                                   width: "2px"
 +                                   height: "2px"
@@ -795,10 +1482,10 @@ It can also happen if the client has a browser extension installed which messes 
                                   style={{
 +                                   position: "absolute"
 -                                   position: "absolute"
-+                                   top: "25.932284949670315%"
--                                   top: "54.7388%"
-+                                   left: "74.04131774358571%"
--                                   left: "39.2986%"
++                                   top: "2.4089496988923043%"
+-                                   top: "8.85708%"
++                                   left: "2.719675674763544%"
+-                                   left: "6.84034%"
 +                                   width: "2px"
 -                                   width: "2px"
 +                                   height: "2px"
@@ -819,10 +1506,10 @@ It can also happen if the client has a browser extension installed which messes 
                                   style={{
 +                                   position: "absolute"
 -                                   position: "absolute"
-+                                   top: "81.2988526961651%"
--                                   top: "61.6812%"
-+                                   left: "67.77750800933762%"
--                                   left: "1.01447%"
++                                   top: "38.618952557072696%"
+-                                   top: "72.856%"
++                                   left: "4.690728027280688%"
+-                                   left: "94.3484%"
 +                                   width: "2px"
 -                                   width: "2px"
 +                                   height: "2px"
@@ -843,10 +1530,10 @@ It can also happen if the client has a browser extension installed which messes 
                                   style={{
 +                                   position: "absolute"
 -                                   position: "absolute"
-+                                   top: "46.76264151479101%"
--                                   top: "86.5251%"
-+                                   left: "87.09785794798691%"
--                                   left: "59.6527%"
++                                   top: "79.69066044761722%"
+-                                   top: "69.7241%"
++                                   left: "60.49116441127717%"
+-                                   left: "67.4231%"
 +                                   width: "2px"
 -                                   width: "2px"
 +                                   height: "2px"
@@ -867,10 +1554,10 @@ It can also happen if the client has a browser extension installed which messes 
                                   style={{
 +                                   position: "absolute"
 -                                   position: "absolute"
-+                                   top: "62.5088329983137%"
--                                   top: "2.71989%"
-+                                   left: "36.951530983346984%"
--                                   left: "71.3355%"
++                                   top: "5.092883200126119%"
+-                                   top: "9.19931%"
++                                   left: "29.875442731821245%"
+-                                   left: "65.7438%"
 +                                   width: "2px"
 -                                   width: "2px"
 +                                   height: "2px"
@@ -886,8 +1573,920 @@ It can also happen if the client has a browser extension installed which messes 
                                   ref={function useMotionRef.useCallback}
                                 >
               ...
+      ...
+        <Month data-animated-month={undefined} className="flex flex-..." style={undefined} displayIndex={0} ...>
+          <div data-animated-month={undefined} className="flex flex-..." style={undefined}>
+            <MonthCaption>
+            <MonthGrid role="grid" aria-multiselectable={false} aria-label="December 2025" className="rdp-month_..." ...>
+              <table role="grid" aria-multiselectable={false} aria-label="December 2025" className="rdp-month_..." ...>
+                <Weekdays>
+                <Weeks data-animated-weeks={undefined} className="rdp-weeks" style={undefined}>
+                  <tbody data-animated-weeks={undefined} className="rdp-weeks" style={undefined}>
+                    <Week className="flex w-ful..." style={undefined} week={{days:[...], ...}}>
+                      <tr className="flex w-ful..." style={undefined}>
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="11/30/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="11/30/2025"
+-                                 data-day="30/11/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Sunday, November 30th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 30
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/1/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/1/2025"
+-                                 data-day="1/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Monday, December 1st, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 1
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/2/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/2/2025"
+-                                 data-day="2/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Tuesday, December 2nd, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 2
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/3/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/3/2025"
+-                                 data-day="3/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Wednesday, December 3rd, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 3
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/4/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/4/2025"
+-                                 data-day="4/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Thursday, December 4th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 4
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/5/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/5/2025"
+-                                 data-day="5/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Friday, December 5th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 5
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/6/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/6/2025"
+-                                 data-day="6/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Saturday, December 6th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 6
+                    <Week className="flex w-ful..." style={undefined} week={{days:[...], ...}}>
+                      <tr className="flex w-ful..." style={undefined}>
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/7/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/7/2025"
+-                                 data-day="7/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Sunday, December 7th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 7
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={true} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/8/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/8/2025"
+-                                 data-day="8/12/2025"
+                                  data-selected-single={true}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={0}
+                                  aria-label="Today, Monday, December 8th, 2025, selected"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 8
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/9/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/9/2025"
+-                                 data-day="9/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Tuesday, December 9th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 9
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/10/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/10/2025"
+-                                 data-day="10/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Wednesday, December 10th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 10
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/11/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/11/2025"
+-                                 data-day="11/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Thursday, December 11th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 11
+                        <Day>
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/13/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/13/2025"
+-                                 data-day="13/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Saturday, December 13th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 13
+                    <Week className="flex w-ful..." style={undefined} week={{days:[...], ...}}>
+                      <tr className="flex w-ful..." style={undefined}>
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/14/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/14/2025"
+-                                 data-day="14/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Sunday, December 14th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 14
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/15/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/15/2025"
+-                                 data-day="15/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Monday, December 15th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 15
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/16/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/16/2025"
+-                                 data-day="16/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Tuesday, December 16th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 16
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/17/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/17/2025"
+-                                 data-day="17/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Wednesday, December 17th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 17
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/18/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/18/2025"
+-                                 data-day="18/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Thursday, December 18th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 18
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/19/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/19/2025"
+-                                 data-day="19/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Friday, December 19th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 19
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/20/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/20/2025"
+-                                 data-day="20/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Saturday, December 20th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 20
+                    <Week className="flex w-ful..." style={undefined} week={{days:[...], ...}}>
+                      <tr className="flex w-ful..." style={undefined}>
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/21/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/21/2025"
+-                                 data-day="21/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Sunday, December 21st, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 21
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/22/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/22/2025"
+-                                 data-day="22/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Monday, December 22nd, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 22
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/23/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/23/2025"
+-                                 data-day="23/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Tuesday, December 23rd, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 23
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/24/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/24/2025"
+-                                 data-day="24/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Wednesday, December 24th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 24
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/25/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/25/2025"
+-                                 data-day="25/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Thursday, December 25th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 25
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/26/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/26/2025"
+-                                 data-day="26/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Friday, December 26th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 26
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/27/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/27/2025"
+-                                 data-day="27/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Saturday, December 27th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 27
+                    <Week className="flex w-ful..." style={undefined} week={{days:[...], ...}}>
+                      <tr className="flex w-ful..." style={undefined}>
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/28/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/28/2025"
+-                                 data-day="28/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Sunday, December 28th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 28
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/29/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/29/2025"
+-                                 data-day="29/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Monday, December 29th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 29
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/30/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/30/2025"
+-                                 data-day="30/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Tuesday, December 30th, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 30
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="12/31/2025" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="12/31/2025"
+-                                 data-day="31/12/2025"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Wednesday, December 31st, 2025"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 31
+                        <Day>
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="1/2/2026" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="1/2/2026"
+-                                 data-day="2/1/2026"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Friday, January 2nd, 2026"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 2
+                        <Day day={{date:Date, ...}} modifiers={{focused:false, ...}} className={"relative..."} style={{}} ...>
+                          <td className={"relative..."} style={{}} role="gridcell" aria-selected={undefined} ...>
+                            <CalendarDayButton className="rdp-day_bu..." style={undefined} type="button" ...>
+                              <Button ref={{current:null}} variant="ghost" size="icon" data-day="1/3/2026" ...>
+                                <button
+                                  data-slot="button"
+                                  className={"items-center justify-center whitespace-nowrap rounded-md text-sm transi..."}
+                                  ref={{current:null}}
++                                 data-day="1/3/2026"
+-                                 data-day="3/1/2026"
+                                  data-selected-single={undefined}
+                                  data-range-start={undefined}
+                                  data-range-end={undefined}
+                                  data-range-middle={undefined}
+                                  style={undefined}
+                                  type="button"
+                                  disabled={undefined}
+                                  tabIndex={-1}
+                                  aria-label="Saturday, January 3rd, 2026"
+                                  onClick={function DayPicker.useCallback[handleDayClick]}
+                                  onBlur={function DayPicker.useCallback[handleDayBlur]}
+                                  onFocus={function DayPicker.useCallback[handleDayFocus]}
+                                  onKeyDown={function DayPicker.useCallback[handleDayKeyDown]}
+                                  onMouseEnter={function DayPicker.useCallback[handleDayMouseEnter]}
+                                  onMouseLeave={function DayPicker.useCallback[handleDayMouseLeave]}
+                                >
++                                 3
+      ...
 
-[00:08:31.978] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:08:31.978] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:08:31.978] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765178714337}
-[00:08:45.446] Server  LOG      ✓ Compiled in 99ms
+[00:02:15.945] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:15.945] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:15.945] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765217234140}
